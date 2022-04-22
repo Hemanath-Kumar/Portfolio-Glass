@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+ 
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+    
+}
+
+.glass{
+    background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border-radius: 20px;
+    min-height:80vh;
+    width:60%;
+    opacity: 100%;
+    
+}
+.nav-bar{
+    width: 50px;
+    height:50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a8edea;
+    border: 1px solid #fed6e3;
+    justify-content: flex-end;
+    float: right;
+}
+.header .nav-bar span{
+    height: 2px;
+    width: 24px;
+    background-color: #e3eeff;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 640px;
+    gap:1rem;
+    position: absolute;
+    border: 2px solid #a8edea;
+    padding: 55px 30px;
+    border-radius: 4px;
+    max-width: 97%;
+    margin: 50px auto;
+    top: 20%;
+    left: 25%;
+
+}
+
+.title{
+    position: absolute;
+    left: 25%;
+    bottom: 70%;
+}
+
+input,
+select,
+textarea{
+    padding: 1.4rem;
+    background:  linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border: 1px solid #a8edea;
+
+}
+
+textarea{
+    height: 6rem;
+}
+.b1{
+  position: absolute;
+  top: 108%;
+  left: 1%;
+}
+
+.click{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border: 2px solid #a8edea;
+    padding: 10px 32px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-size:14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    top: 125%;
+    left:0%;
+    position: absolute;
+}
+
+.click:hover{
+    transform: scale(1.2);
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 25%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 220px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 3px 3px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 21%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }   
+}
+
+@media (min-width:480px)  {
+     /* smartphones, Android phones, landscape iPhone */ 
+     .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 19%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 25px 25px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 17%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }    
+}
+    
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+   
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 19%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 450px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 35px 45px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 17%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }  
+    
+}
+
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 25%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 450px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 35px 45px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 25%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }  
+    
+   
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */ 
+     .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 25%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 450px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 35px 45px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 25%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }  
+    
+   
+}
+
+@media (min-width:1281px) and (max-width:1418px){
+     /* hi-res laptops and desktops */
+     .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 25%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 450px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 35px 45px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 25%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }  
+    
+}
+
+@media (min-width:1420px){
+    /* hi-res laptops and desktops */
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:90%;
+        opacity: 100%;
+        
+    }
+    .title{
+        position: absolute;
+        left: 25%;
+        bottom: 75%;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 450px;
+        gap:1rem;
+        position: absolute;
+        border: 2px solid #a8edea;
+        padding: 35px 45px;
+        border-radius: 4px;
+        max-width: 97%;
+        margin: 50px auto;
+        top: 20%;
+        left: 25%;
+    
+    }
+    
+   
+    .click{
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border: 2px solid #a8edea;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: rgb(0, 0, 0);
+        font-size:14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        top: 125%;
+        left:0%;
+        position: absolute;
+    }  
+    
+}
+

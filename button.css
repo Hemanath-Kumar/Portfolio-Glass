@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+ 
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+    
+}
+
+.glass{
+    background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border-radius: 20px;
+    min-height:80vh;
+    width:60%;
+    opacity: 100%;
+    
+}
+
+
+.link1 ul li{
+    list-style-type: none;
+    font-size: 30px;
+    
+    
+
+}
+
+.link1{
+    display: flex;
+    position: absolute;
+    right:50%;
+    top: 31%;
+    
+
+    
+}
+
+a{
+ 
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 20px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right:38%;
+        top: 31%;
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    
+   
+}
+
+@media (min-width:480px)  {
+     /* smartphones, Android phones, landscape iPhone */ 
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 20px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right:38%;
+        top: 31%;
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+}
+    
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 20px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right: 43%;
+        top: 31%;
+        
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+    
+}
+
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 20px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right: 45%;
+        top: 31%;
+        
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */ 
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 22px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right: 45%;
+        top: 31%;
+        
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+   
+}
+
+@media (min-width:1281px) and (max-width:1418px){
+     /* hi-res laptops and desktops */
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 23px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right: 47%;
+        top: 31%;
+        
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width:1420px){
+    /* hi-res laptops and desktops */
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    
+    
+    .link1 ul li{
+        list-style-type: none;
+        font-size: 25px;
+        
+        
+    
+    }
+    
+    .link1{
+        display: flex;
+        position: absolute;
+        right: 48%;
+        top: 31%;
+        
+        
+    
+        
+    }
+    
+    a{
+     
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+    }
+    
+}
+

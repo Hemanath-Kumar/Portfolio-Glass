@@ -1,0 +1,711 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+ 
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+    
+}
+
+.glass{
+    background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border-radius: 20px;
+    min-height:80vh;
+    width:60%;
+    opacity: 100%;
+    
+}
+.nav-bar{
+    width: 30px;
+    height:30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a8edea;
+    border: 1px solid #fed6e3;
+    justify-content: flex-end;
+    float: right;
+}
+.header .nav-bar span{
+    height: 2px;
+    width: 24px;
+    background-color: #e3eeff;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.title{
+    float: left;
+    margin: 200px 0px 50px 25px;
+}
+ 
+.btn{
+    text-decoration: none;
+    line-height: 1.5;
+    background-color:#a8edea;
+    border-radius: 1px solid #000;
+    padding: 10px 29px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #000 ;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+.btn:hover{
+    
+    transform: scale(1.2);
+    background: #ffffff;
+    transition: .3s;
+    cursor: pointer;
+
+}
+.DP{
+    width: 100%;
+}
+.face{
+        width: 50%;
+        margin: 0px 120px 0px 0px;
+        position: absolute;
+        bottom: 15%;
+        left:5%;
+     
+}
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:110vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .title{
+        float: left;
+        margin: 20px 0px 50px 25px;
+        font-size: 17px;
+    }
+     
+    .btn{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    .btn:hover{
+        
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    
+    }
+    .DP{
+        width: 100%;
+    }
+    .face{
+        height: auto;
+        width: 40%;
+        margin: 0px;
+        position: absolute;
+        top: 83%;
+        left:28%;
+    
+        
+    }
+}
+
+@media (min-width:480px)  {
+     /* smartphones, Android phones, landscape iPhone */ 
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:10vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .title{
+        float: left;
+        margin: 20px 0px 50px 25px;
+        font-size: 17px;
+    }
+     
+    .btn{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    .btn:hover{
+        
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    
+    }
+    .DP{
+        width: 100%;
+    }
+    .face{
+        width: 28%;
+        margin: 0px;
+        position: absolute;
+        top: 55%;
+        left:52%;
+    
+        
+    }
+}
+    
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:10vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .title{
+        float: left;
+        margin: 20px 0px 50px 25px;
+        font-size: 17px;
+    }
+     
+    .btn{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    .btn:hover{
+        
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    
+    }
+    .DP{
+        width: 100%;
+    }
+    .face{
+        width: 25%;
+        margin: 0px 120px 0px 0px;
+        position: absolute;
+        bottom: 20%;
+        left:55%;
+    
+        
+    }
+}
+
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:10vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .title{
+        float: left;
+        margin: 20px 0px 50px 25px;
+        font-size: 17px;
+    }
+     
+    .btn{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    .btn:hover{
+        
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    
+    }
+    .DP{
+        width: 100%;
+    }
+    .face{
+        width: 20%;
+        margin: 0px 120px 0px 0px;
+        position: absolute;
+        bottom: 20%;
+        left:57%;
+    
+        
+    }
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */ 
+
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:10vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .title{
+        float: left;
+        margin: 20px 0px 50px 25px;
+        font-size: 17px;
+    }
+     
+    .btn{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    .btn:hover{
+        
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    
+    }
+    .DP{
+        width: 100%;
+    }
+    .face{
+        width: 20%;
+        margin: 0px ;
+        position: absolute;
+        top:47%;
+        left:50%;
+    
+        
+    }
+}
+
+@media (min-width:1281px) and (max-width:1418px){
+     /* hi-res laptops and desktops */
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:10vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .title{
+        float: left;
+        margin: 20px 0px 50px 25px;
+        font-size: 17px;
+    }
+     
+    .btn{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    .btn:hover{
+        
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    
+    }
+    .DP{
+        width: 100%;
+    }
+    .face{
+        width: 20%;
+        margin: 0px 120px 0px 0px;
+        position: absolute;
+        top: 40%;
+        left:59%;
+    
+    }
+}
+
+@media (min-width:1420px){
+    /* hi-res laptops and desktops */
+    main{
+       min-height: 100vh;
+       background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+      
+       
+   }
+   
+   .glass{
+       background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+       border-radius: 20px;
+       min-height:10vh;
+       width:60%;
+       opacity: 100%;
+       
+   }
+   .nav-bar{
+       width: 30px;
+       height:30px;
+       border: none;
+       cursor: pointer;
+       border-radius: 50%;
+       background-color: #a8edea;
+       border: 1px solid #fed6e3;
+       justify-content: flex-end;
+       float: right;
+       
+   }
+   .header .nav-bar span{
+       height: 2px;
+       width: 24px;
+       background-color: #e3eeff;
+       position: relative;
+   }
+   a{
+       text-decoration: none;
+       font-size: 20px;
+   }
+   
+   .title{
+       float: left;
+       margin: 20px 0px 50px 25px;
+       font-size: 17px;
+   }
+    
+   .btn{
+       text-decoration: none;
+       line-height: 1.5;
+       background-color:#a8edea;
+       border-radius: 1px solid #000;
+       padding: 10px 29px;
+       display: inline-block;
+       border-radius: 30px;
+       color: #000 ;
+       font-weight: 500;
+       text-transform: capitalize;
+       font-family: inherit;
+       font-size: 16px;
+       cursor: pointer;
+       user-select: none;
+       position: relative;
+   }
+   .btn:hover{
+       
+       transform: scale(1.2);
+       background: #ffffff;
+       transition: .3s;
+       cursor: pointer;
+   
+   }
+   .DP{
+       width: 100%;
+   }
+   .face{
+       width: 22%;
+       margin: 0px 120px 0px 0px;
+       position: absolute;
+       top: 28%;
+       left:57%;
+   
+   }
+}
+

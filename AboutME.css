@@ -1,0 +1,1016 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+ 
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+    
+}
+
+.glass{
+    background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border-radius: 20px;
+    min-height:80vh;
+    width:60%;
+    opacity: 100%;
+    
+}
+.nav-bar{
+    width: 50px;
+    height:50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a8edea;
+    border: 1px solid #fed6e3;
+    justify-content: flex-end;
+    float: right;
+    
+}
+.header .nav-bar span{
+    height: 2px;
+    width: 24px;
+    background-color: #e3eeff;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.title{
+    float: right;
+    margin: 200px 0px 50px 25px;
+}
+ 
+
+
+.DP{
+    width: 100%;
+}
+.face{
+    width: 40%;
+    float:left;
+    margin: 100px 0px 50px 25px;
+
+    
+}
+.about{
+    margin: 50px 0px 50px 25px;
+}
+.about .skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .skill-item{
+    background-color: #a8edea;
+    border: 1px solid #fed6e3;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    margin:0px 10px 10px 0;
+    border-radius: 30px;
+}
+
+.timeline .date{
+    color:#be4d71 ;
+}
+
+.resume{
+    position: absolute;
+    left:50%;
+}
+
+.skill-rate{
+    text-decoration: none;
+    line-height: 1.5;
+    background-color:#a8edea;
+    border-radius: 1px solid #000;
+    padding: 10px 29px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #000 ;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.skill-rate:hover{
+
+    transform: scale(1.2);
+    background: #ffffff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:160vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 0px 30px;
+    }
+    .face{
+        width: 70%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 250px 0px 0px 10px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:22%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+   
+}
+@media (min-width:414px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:120vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 0px 30px;
+    }
+    .face{
+        width: 70%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 250px 0px 0px 10px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:22%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+   
+}
+@media (min-width:480px)  {
+     /* smartphones, Android phones, landscape iPhone */ 
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:115vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 0px 30px;
+    }
+    .face{
+        width: 70%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 270px 0px 0px 10px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:22%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+}
+    
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:115vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 0px 30px;
+    }
+    .face{
+        width: 70%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 350px 0px 0px 10px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:22%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+}
+
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:120vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 0px 30px;
+    }
+    .face{
+        width: 70%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 439px 0px 0px 10px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:22%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */ 
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .face{
+        width: 50%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 0px 0px 0px 350px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:25%;
+        bottom: 30%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+   
+}
+
+@media (min-width:1234px) and (max-width:1418px){
+     /* hi-res laptops and desktops */
+     
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    .face{
+        width: 40%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 0px 0px 0px 340px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:23%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+}
+
+@media (min-width:1420px){
+    /* hi-res laptops and desktops */
+
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:60vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width:30px;
+        height:30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+        
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+  
+    
+    
+    .DP{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    .face{
+        width: 40%;
+        float:left;
+        margin: 0px;
+    
+        
+    }
+    .about{
+        margin: 0px 0px 0px 340px;
+        font-size: 14px;
+    }
+    .about .skill{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .about .skill-item{
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        padding: 5px 15px;
+        text-transform: capitalize;
+        margin:0px 10px 10px 0;
+        border-radius: 30px;
+    }
+    
+    .timeline .date{
+        color:#be4d71 ;
+    }
+    
+    .resume{
+        position: absolute;
+        left:27%;
+        bottom: 25%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1.5;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+}

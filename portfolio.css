@@ -1,0 +1,1035 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+ 
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+    
+}
+
+.glass{
+    background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+    border-radius: 20px;
+    min-height:80vh;
+    width:60%;
+    opacity: 100%;
+    
+}
+.nav-bar{
+    width: 50px;
+    height:50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a8edea;
+    border: 1px solid #fed6e3;
+    justify-content: flex-end;
+    float: right;
+}
+.header .nav-bar span{
+    height: 2px;
+    width: 24px;
+    background-color: #e3eeff;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*--Virtual-Voice-Assistant-using-python-- */
+
+.voice-img{
+    display: flex;
+    justify-content: left;
+    
+
+    
+}
+
+.voice-img .python-img{
+    border: 5px solid #cde0df;
+    
+    margin: 15px 15px 15px 15px;
+    
+}
+
+.voice p{
+    position: absolute;
+    
+    top: 38%;
+    left:22%;
+
+}
+
+.python-btn{
+    position: absolute;
+    left: 26%;
+    top:42%;
+}
+
+.skill-rate{
+    text-decoration: none;
+    line-height: 1.5;
+    background-color:#a8edea;
+    border-radius: 1px solid #000;
+    padding: 10px 29px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #000 ;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.skill-rate:hover{
+
+    transform: scale(1.2);
+    background: #ffffff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.head{
+   
+    width:29%;
+    margin: 10px 10px;
+    opacity: 100%;
+}
+
+/*--My first portfolio Website build-- */
+.image{
+    display: flex;
+    justify-content: left;
+    
+
+    
+}
+
+.image .portfolio-image2{
+    border: 5px solid #cde0df;
+    
+    margin: 15px 15px 15px 15px;
+    
+}
+
+.first-portfolio p{
+    position: absolute;
+    
+    top: 113%;
+    right:15%;
+
+}
+
+.port-btn{
+    position: absolute;
+    right: 26%;
+    top:135%;
+}
+
+.port-btn2{
+    text-decoration: none;
+    line-height: 1.5;
+    background-color:#a8edea;
+    border-radius: 1px solid #000;
+    padding: 10px 29px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #000 ;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.port-btn2:hover{
+
+    transform: scale(1.2);
+    background: #ffffff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.head-two{
+    float: right;
+    min-height:24vh;
+    width:18%;
+    margin: 1px 1px;
+    opacity: 100%;
+    position:absolute;
+    left:55%;
+    top:11%;
+    display: flex;
+}
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    /*--Virtual-Voice-Assistant-using-python-- */
+    
+    .voice-img{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 26%;
+        top:18%;
+        
+    
+        
+    }
+    
+    .voice-img .python-img{
+        border: 5px solid #cde0df;
+        width: 150px;
+        height: 100px;
+        
+        
+    }
+    
+    .voice p{
+        position: absolute;
+        top: 38%;
+        left:25%;
+        font-size: 10px;
+    
+    }
+    
+    .python-btn{
+        position: absolute;
+        left: 34%;
+        top:43%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 10px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+    .head{
+       
+        width:29%;
+        margin: 10px 10px;
+        opacity: 100%;
+    }
+    
+    /*--My first portfolio Website build-- */
+    .image{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        
+        top: 170%;
+        right:0%
+        
+    
+        
+    }
+    
+    .image .portfolio-image2{
+        border: 5px solid #cde0df;
+        width: 150px;
+        height:100px;
+        
+    }
+    
+    .first-portfolio p{
+
+        position: absolute;
+        width: 230%;
+        
+        top: 250%;
+        right: 14%;
+        font-size: 10px;
+    
+    }
+    
+    .port-btn{
+        position: absolute;
+        right: 60%;
+        top:270%;
+    }
+    
+    .port-btn2{
+        text-decoration: none;
+        line-height: 1;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 5px 35px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 100;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 10px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .port-btn2:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+    .head-two{
+        float: right;
+        min-height:24vh;
+        width:18%;
+        margin: 1px 1px;
+        opacity: 100%;
+        position:absolute;
+        left:55%;
+        top:11%;
+        display: flex;
+    }
+    
+   
+}
+
+@media (min-width:480px)  {
+     /* smartphones, Android phones, landscape iPhone */ 
+     main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    /*--Virtual-Voice-Assistant-using-python-- */
+    
+    .voice-img{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 30%;
+        top:18%;
+        
+    
+        
+    }
+    
+    .voice-img .python-img{
+        border: 5px solid #cde0df;
+        width: 150px;
+        height: 100px;
+        
+        
+    }
+    
+    .voice p{
+        position: absolute;
+        top: 35%;
+        left:25%;
+        font-size: 13px;
+    
+    }
+    
+    .python-btn{
+        position: absolute;
+        left: 37%;
+        top:40%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 10px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+    .head{
+       
+        width:29%;
+        margin: 10px 10px;
+        opacity: 100%;
+    }
+    
+    /*--My first portfolio Website build-- */
+    .image{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        
+        top: 170%;
+        right:30%
+        
+    
+        
+    }
+    
+    .image .portfolio-image2{
+        border: 5px solid #cde0df;
+        width: 150px;
+        height:100px;
+        
+    }
+    
+    .first-portfolio p{
+
+        position: absolute;
+        width: 230%;
+        
+        top: 240%;
+        right: 14%;
+        font-size: 13px;
+    
+    }
+    
+    .port-btn{
+        position: absolute;
+        right: 60%;
+        top:255%;
+    }
+    
+    .port-btn2{
+        text-decoration: none;
+        line-height: 1;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 5px 40px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 13px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .port-btn2:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+    .head-two{
+        float: right;
+        min-height:24vh;
+        width:18%;
+        margin: 1px 1px;
+        opacity: 100%;
+        position:absolute;
+        left:55%;
+        top:11%;
+        display: flex;
+    }
+     
+}
+    
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+    main{
+        min-height: 100vh;
+        background: linear-gradient(to right bottom, #a8edea 0%, #fed6e3 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+       
+        
+    }
+    
+    .glass{
+        background-image: linear-gradient(to right bottom, rgba(255,255,255,0.40), rgba(255,255,255,0.25));
+        border-radius: 20px;
+        min-height:80vh;
+        width:60%;
+        opacity: 100%;
+        
+    }
+    .nav-bar{
+        width: 50px;
+        height:50px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #a8edea;
+        border: 1px solid #fed6e3;
+        justify-content: flex-end;
+        float: right;
+    }
+    .header .nav-bar span{
+        height: 2px;
+        width: 24px;
+        background-color: #e3eeff;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    /*--Virtual-Voice-Assistant-using-python-- */
+    
+    .voice-img{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 35%;
+        top:18%;
+        
+    
+        
+    }
+    
+    .voice-img .python-img{
+        border: 5px solid #cde0df;
+        width: 200px;
+        height: 150px;
+        
+        
+    }
+    
+    .voice p{
+        position: absolute;
+        top: 40%;
+        left:35%;
+        font-size: 13px;
+    
+    }
+    
+    .python-btn{
+        position: absolute;
+        left: 43%;
+        top:44%;
+    }
+    
+    .skill-rate{
+        text-decoration: none;
+        line-height: 1;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 10px 29px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 10px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .skill-rate:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+    .head{
+       
+        width:29%;
+        margin: 10px 10px;
+        opacity: 100%;
+    }
+    
+    /*--My first portfolio Website build-- */
+    .image{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        
+        top: 170%;
+        right:40%
+        
+    
+        
+    }
+    
+    .image .portfolio-image2{
+        border: 5px solid #cde0df;
+        width: 200px;
+        height:150px;
+        
+    }
+    
+    .first-portfolio p{
+
+        position: absolute;
+        width:170%;
+        top: 260%;
+        right: 50px;
+        font-size: 13px;
+    
+    }
+    
+    .port-btn{
+        position: absolute;
+        right: 80%;
+        top:275%;
+    }
+    
+    .port-btn2{
+        text-decoration: none;
+        line-height: 1;
+        background-color:#a8edea;
+        border-radius: 1px solid #000;
+        padding: 5px 40px;
+        display: inline-block;
+        border-radius: 30px;
+        color: #000 ;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-family: inherit;
+        font-size: 13px;
+        cursor: pointer;
+        user-select: none;
+        position: relative;
+    }
+    
+    .port-btn2:hover{
+    
+        transform: scale(1.2);
+        background: #ffffff;
+        transition: .3s;
+        cursor: pointer;
+    }
+    
+    .head-two{
+        float: right;
+        min-height:24vh;
+        width:18%;
+        margin: 1px 1px;
+        opacity: 100%;
+        position:absolute;
+        left:55%;
+        top:11%;
+        display: flex;
+    }
+     
+    
+}
+
+@media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    
+    /*--Virtual-Voice-Assistant-using-python-- */
+    
+    .voice-img{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 35%;
+        top:18%;
+        
+    
+        
+    }
+    
+    .voice-img .python-img{
+        border: 5px solid #cde0df;
+        width: 200px;
+        height: 150px;
+        
+        
+    }
+    
+    .voice p{
+        position: absolute;
+        top: 40%;
+        left:35%;
+        font-size: 13px;
+    
+    }
+    
+    .python-btn{
+        position: absolute;
+        left: 41%;
+        top:44%;
+    }
+   /*--My first portfolio Website build-- */
+   .image{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    
+    top: 170%;
+    right:70%
+    
+
+    
+}
+
+.image .portfolio-image2{
+    border: 5px solid #cde0df;
+    width: 200px;
+    height:150px;
+    
+}
+
+.first-portfolio p{
+
+    position: absolute;
+    width:170%;
+    top: 260%;
+    right: 50px;
+    font-size: 13px;
+
+}
+
+.port-btn{
+    position: absolute;
+    right: 100%;
+    top:275%;
+}
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */ 
+    /*--Virtual-Voice-Assistant-using-python-- */
+    
+    .voice-img{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 40%;
+        top:18%;
+        
+    
+        
+    }
+    
+    .voice-img .python-img{
+        border: 5px solid #cde0df;
+        width: 200px;
+        height: 150px;
+        
+        
+    }
+    
+    .voice p{
+        position: absolute;
+        top: 40%;
+        left:40%;
+        font-size: 13px;
+    
+    }
+    
+    .python-btn{
+        position: absolute;
+        left: 45%;
+        top:44%;
+    }
+   /*--My first portfolio Website build-- */
+   .image{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    top: 170%;
+    right:69%
+    
+
+    
+}
+
+.image .portfolio-image2{
+    border: 5px solid #cde0df;
+    width: 200px;
+    height:150px;
+    
+}
+
+.first-portfolio p{
+
+    position: absolute;
+    width:170%;
+    top: 260%;
+    right: 10px;
+    font-size: 13px;
+
+}
+
+.port-btn{
+    position: absolute;
+    right: 100%;
+    top:275%;
+}
+}
+   
+
+
+@media (min-width:1281px) and (max-width:1418px){
+     /* hi-res laptops and desktops */
+         /*--Virtual-Voice-Assistant-using-python-- */
+    
+    .voice-img{
+        display: flex;
+        justify-content: left;
+        position: absolute;
+        left: 40%;
+        top:18%;
+        
+    
+        
+    }
+    
+    .voice-img .python-img{
+        border: 5px solid #cde0df;
+        width: 200px;
+        height: 150px;
+        
+        
+    }
+    
+    .voice p{
+        position: absolute;
+        top: 40%;
+        left:40%;
+        font-size: 13px;
+    
+    }
+    
+    .python-btn{
+        position: absolute;
+        left: 45%;
+        top:44%;
+    }
+   /*--My first portfolio Website build-- */
+   .image{
+    display: flex;
+    position: absolute;
+    top: 170%;
+    right:84%
+    
+
+    
+}
+
+.image .portfolio-image2{
+    border: 5px solid #cde0df;
+    width: 200px;
+    height:150px;
+    
+}
+
+.first-portfolio p{
+
+    position: absolute;
+    width:170%;
+    top: 260%;
+    right: 10px;
+    font-size: 13px;
+
+}
+
+.port-btn{
+    position: absolute;
+    right: 110%;
+    top:275%;
+}
+}
+
+@media (min-width:1420px){
+    /* hi-res laptops and desktops */
+         /*--Virtual-Voice-Assistant-using-python-- */
+    
+         .voice-img{
+            display: flex;
+            justify-content: left;
+            position: absolute;
+            left: 42%;
+            top:18%;
+            
+        
+            
+        }
+        
+        .voice-img .python-img{
+            border: 5px solid #cde0df;
+            width: 200px;
+            height: 150px;
+            
+            
+        }
+        
+        .voice p{
+            position: absolute;
+            top: 40%;
+            left:41%;
+            font-size: 13px;
+        
+        }
+        
+        .python-btn{
+            position: absolute;
+            left: 45%;
+            top:44%;
+        }
+       /*--My first portfolio Website build-- */
+       .image{
+        
+        position: absolute;
+        top: 170%;
+        right:100%
+        
+    
+        
+    }
+    
+    .image .portfolio-image2{
+        border: 5px solid #cde0df;
+        width: 200px;
+        height:150px;
+        
+    }
+    
+    .first-portfolio p{
+    
+        position: absolute;
+        width:170%;
+        top: 260%;
+        right: 0px;
+        font-size: 13px;
+    
+    }
+    
+    .port-btn{
+        position: absolute;
+        right: 115%;
+        top:275%;
+    }
+    }
